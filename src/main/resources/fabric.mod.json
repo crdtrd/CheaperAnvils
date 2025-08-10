@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "cheaperanvils",
+  "version": "${version}",
+  "name": "CheaperAnvils",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+    ],
+    "main": [
+      "com.drtdrc.cheaperanvils.CheaperAnvils"
+    ]
+  },
+  "mixins": [
+    "cheaperanvils.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
