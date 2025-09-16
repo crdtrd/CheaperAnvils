@@ -3,14 +3,15 @@
   "id": "cheaperanvils",
   "version": "${version}",
   "name": "CheaperAnvils",
-  "description": "",
-  "authors": [],
-  "contact": {},
-  "license": "All-Rights-Reserved",
+  "icon": "assets/cheaperanvils/icon.png",
+  "description": "Makes anvils no longer ridiculous and more straightforward for monke brain!",
+  "authors": ["crdtrd"],
+  "contact": {
+    "issues": "https://github.com/crdtrd/DelimitedAnvils/issues"
+  },
+  "license": "MIT",
   "environment": "*",
   "entrypoints": {
-    "client": [
-    ],
     "main": [
       "com.drtdrc.cheaperanvils.CheaperAnvils"
     ]
